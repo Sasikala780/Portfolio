@@ -1,4 +1,3 @@
-// Show only one section at a time
 const navLinks = document.querySelectorAll('.nav-links a');
 const sections = document.querySelectorAll('section');
 
@@ -20,7 +19,7 @@ navLinks.forEach(link => {
   });
 });
 
-// On initial load, show Home section only
 document.addEventListener('DOMContentLoaded', () => {
   showSection('home');
 });
+
